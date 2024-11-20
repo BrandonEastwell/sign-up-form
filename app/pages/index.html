@@ -1,10 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Sign-up Form</title>
+    <link href="../css/normalize.css">
+    <link href="../css/styles.css">
 </head>
 <body>
-$END$
+    <div id="container">
+        <div id="form-container">
+            <form id="sign-up-form" action="" method="get">
+                <div class="form-row">
+                    <label for="first-name">First Name </label>
+                    <input id="first-name" type="text" name="first-name">
+                    <label for="last-name">Last Name </label>
+                    <input id="last-name" type="text" name="last-name">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email </label>
+                    <input id="email" type="email" name="email" placeholder="joe@example.com" required>
+                    <label for="password">Password </label>
+                    <input id="password" type="password" name="password" required>
+                </div>
+                <div class="form-row">
+                    <label for="confirm-password">Confirm Password </label>
+                    <input id="confirm-password" type="password" name="password" required>
+                    <label for="number">PHONE NUMBER </label>
+                    <input id="number" type="number" name="number">
+                </div>
+                <div class="form-row">
+                    <button type="submit">Create Account</button>
+                </div>
+            </form>
+        </div>
+        <div id="header-container">
+            <div id="header-content">
+                <img alt="" src="">
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>
